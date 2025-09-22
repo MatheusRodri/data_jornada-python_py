@@ -4,7 +4,7 @@ import time
 import pandas
 
 
-time_inicio = time.time()
+time_inicio = time.time() # Marca o tempo de início da execução do script
 pyautogui.PAUSE = 1 # Define uma pausa de 5 segundos para cada ação
 
 # Acessa o site
@@ -17,7 +17,7 @@ time.sleep(5) # Espera 5 segundos
 
 # Faz login
 pyautogui.click(868,398)
-pyautogui.write('matheus.rj25@hotmail.com')
+pyautogui.write('um.email@exemplo.com')
 pyautogui.press('tab')
 pyautogui.write('123')
 pyautogui.press('tab')

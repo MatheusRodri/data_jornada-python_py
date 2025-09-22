@@ -1,10 +1,7 @@
-# import pyautogui
-# import time
+# Verifica a posição do mouse
 
-# time.sleep(5)
-# print(pyautogui.position())
+import pyautogui
+import time
 
-
-import pandas
-tabela = pandas.read_csv('./data/produtos.csv')
-print(tabela)
+time.sleep(5)
+print(pyautogui.position())
